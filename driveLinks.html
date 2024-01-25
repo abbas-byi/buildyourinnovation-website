@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Drive Links Processor</title>
+</head>
+
+<body>
+    <h2>Enter Drive Links (Separated by comma)</h2>
+    <textarea id="inputLinks" rows="4" cols="50"></textarea><br>
+    <button onclick="processLinks()">Process Links</button>
+    <div id="output"></div>
+
+    <script>
+        function processLinks() {
+            var input = document.getElementById('inputLinks').value;
+            var links = input.split(',');
+
+            var outputDiv = document.getElementById('output');
+            outputDiv.innerHTML = ''; // Clear previous output
+
+            links.forEach(function (link) {
+                link = link.trim();
+                if (link) {
+                    var a = document.createElement('a');
+                    a.href = link;
+                    a.textContent = link;
+                    a.onclick = function (e) {
+                        e.preventDefault();
+                        var newWindow = window.open();
+                        newWindow.opener = null;
+                        newWindow.location = link;
+                    };
+                    outputDiv.appendChild(a);
+                    outputDiv.appendChild(document.createElement('br'));
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

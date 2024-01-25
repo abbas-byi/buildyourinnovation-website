@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTQ People List</title>
+</head>
+
+<body>
+    <h1>HTQ People List Sipara Allotment</h1>
+    <textarea id="inputText" rows="20" cols="50"></textarea>
+    <br>
+    <button onclick="processText()">Process</button>
+    <button id="copyButton" onclick="copyToClipboard()" style="display: none;">Copy</button>
+    <br>
+    <div id="result"></div>
+
+    <script>
+        function processText() {
+            let text = document.getElementById('inputText').value;
+            let lines = text.split('\n');
+            let nameNumberPairs = [];
+            let updatedText = [];
+            let nameForDua = '';
+
+            for (let line of lines) {
+                // Increment Khatmul Quran number
+                if (line.includes("Khatmul Quran#(")) {
+                    let khatmulQuranNumber = parseInt(line.match(/\((\d+)\)/)[1]);
+                    line = line.replace(/\(\d+\)/, `(${khatmulQuranNumber + 1})`);
+                }
+
+                // Increment numbers in parentheses for names
+                let match = line.match(/(.*) \((\d+)\)/);
+                if (match) {
+                    let name = match[1].trim();
+                    let number = parseInt(match[2]);
+                    number = number === 30 ? 1 : number + 1;
+                    nameNumberPairs.push({ name, number });
+                    if (number === 30) {
+                        nameForDua = name; // Store the name that is now number 30 for the dua
+                    }
+                } else {
+                    // Check for date and increment
+                    let dateMatch = line.match(/(\d{2})-(\d{2})-(\d{4})/);
+                    if (dateMatch) {
+                        let day = parseInt(dateMatch[1]);
+                        let month = parseInt(dateMatch[2]) - 1; // JS months are 0-indexed
+                        let year = parseInt(dateMatch[3]);
+                        let date = new Date(year, month, day);
+                        date.setDate(date.getDate() + 1); // Increment date by one day
+                        line = `${date.getDate().toString().padStart(2, '0')}-${(date.getMonth() + 1).toString().padStart(2, '0')}-${date.getFullYear()}`;
+                    }
+                }
+                updatedText.push(line);
+            }
+
+            // Sort by updated numbers
+            nameNumberPairs.sort((a, b) => a.number - b.number);
+
+            // Insert sorted names into the text at the correct position
+            let nameInsertIndex = updatedText.findIndex(line => line.includes("Sipara Allotment List")) + 1;
+            if (nameInsertIndex > 0) {
+                updatedText.splice(nameInsertIndex, nameNumberPairs.length, ...nameNumberPairs.map(pair => `${pair.name} (${pair.number})`));
+            }
+
+            // Insert the name for the dua after "khatmul Quran ni Dua"
+            let duaIndex = updatedText.findIndex(line => line.includes("khatmul Quran ni Dua"));
+            if (duaIndex >= 0 && nameForDua) {
+                updatedText.splice(duaIndex + 1, 1, nameForDua); // Replace the existing name with the new one
+            }
+
+            document.getElementById('result').innerText = updatedText.join('\n');
+            document.getElementById('copyButton').style.display = 'block'; // Show the copy button
+        }
+
+        function copyToClipboard() {
+            let text = document.getElementById('result').innerText;
+            navigator.clipboard.writeText(text).then(() => {
+                alert('Text copied to clipboard');
+            }).catch(err => {
+                console.error('Could not copy text: ', err);
+            });
+        }
+    </script>
+</body>
+
+</html>
