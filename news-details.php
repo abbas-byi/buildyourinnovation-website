@@ -4,10 +4,12 @@
 <!-- Mirrored from kodesolution.com/html/2023/crotive-html/news-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Jun 2023 14:08:25 GMT -->
 <head>
 <meta charset="utf-8">
-<title>Crotive | Creative Agency HTML Template | Home Page 01</title>
+<title>News Detail Page | Build Your Innovation</title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
+
+<?php include './templates/favicon.php'; ?>
 
 <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 <link rel="icon" href="images/favicon.png" type="image/x-icon">
@@ -22,251 +24,21 @@
 
 <div class="page-wrapper dark-layout">
 
+<?php include './templates/cursor-animation.php'; ?>
+
 	<!-- Preloader -->
 	<div class="preloader"></div>
 
-	<!-- Main Header-->
-	<header class="main-header header-style-one border border-bottom border-dark">
-		<div class="">
-			<!-- Main box -->
-			<div class="main-box">
-				<div class="logo-box">
-					<div class="logo"><a href="index-2.html"><img src="images/logo.png" alt="" title="Tronis"></a></div>
-				</div>
-
-				<!--Nav Box-->
-				<div class="nav-outer">
-					<nav class="nav main-menu">
-						<ul class="navigation">
-							<li class="current dropdown"><a href="index-2.html">Home</a>
-								<ul>
-									<li><a href="index-2.html">Home page 01</a></li>
-									<li><a href="index-3.html">Home page 02</a></li>
-									<li><a href="index-4.html">Home page 03</a></li>
-									<li><a href="index-5.html">Home page 04</a></li>
-									<li class="dropdown"><a href="#">Header Styles</a>
-										<ul>
-											<li><a href="index-2.html">Header Style One</a></li>
-											<li><a href="index-3.html">Header Style Two</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li class="dropdown"><a href="page-about.html">Pages</a>
-								<ul>
-									<li><a href="page-about.html">About</a></li>
-									<li class="dropdown"><a href="page-team.html">Team</a>
-										<ul>
-											<li><a href="page-team.html">Team Grid</a></li>
-											<li><a href="page-team-details.html">Team Details</a></li>
-										</ul>
-									</li>
-									<li class="dropdown"><a href="shop-products.html">Shop</a>
-										<ul>
-											<li><a href="shop-products.html">Products</a></li>
-											<li><a href="shop-products-sidebar.html">Products with Sidebar</a></li>
-											<li><a href="shop-product-details.html">Product Details</a></li>
-											<li><a href="shop-cart.html">Cart</a></li>
-											<li><a href="shop-checkout.html">Checkout</a></li>
-										</ul>
-									</li>
-									<li><a href="page-testimonial.html">Testimonial</a></li>
-									<li><a href="page-pricing.html">Pricing</a></li>
-									<li><a href="page-faq.html">FAQ</a></li>
-									<li><a href="page-404.html">Page 404</a></li>
-								</ul>
-							</li>
-							<li class="dropdown"><a href="page-services.html">Services</a>
-								<ul>
-									<li><a href="page-services.html">Services Grid</a></li>
-									<li><a href="page-service-details.html">Service Details</a></li>
-								</ul>
-							</li>
-							<li class="dropdown"><a href="page-projects.html">Portfolio</a>
-								<ul>
-									<li><a href="page-projects.html">Portfolio List</a></li>
-									<li><a href="page-projects-grid.html">Portfolio Grid</a></li>
-									<li><a href="page-project-details.html">Portfolio Details</a></li>
-								</ul>
-							</li>
-							<li class="dropdown"><a href="news-grid.html">News</a>
-								<ul>
-									<li><a href="news-grid.html">News Grid</a></li>
-									<li><a href="news-details.html">News Details</a></li>
-								</ul>
-							</li>
-							<li><a href="page-contact.html">Contact</a></li>
-						</ul>
-					</nav>
-					<!-- Main Menu End-->
-				</div>
-
-
-				<div class="outer-box">
-					<button class="ui-btn ui-btn clink search-btn mx-0">
-						<span class="icon lnr lnr-icon-search"></span>
-					</button>
-
-					<a href="shop-cart.html" class="ui-btn ui-btn clink">
-						<span class="icon lnr lnr-icon-cart"></span>
-					</a>
-
-					<a href="page-contact.html" class="theme-btn btn-style-one"><span class="btn-title">Get in Touch</span></a>
-
-					<!-- Mobile Nav toggler -->
-					<div class="mobile-nav-toggler"><span class="icon lnr-icon-bars"></span></div>
-				</div>
-			</div>
-		</div>
-
-		<!-- Mobile Menu  -->
-		<div class="mobile-menu">
-			<div class="menu-backdrop"></div>
-
-			<!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
-			<nav class="menu-box">
-				<div class="upper-box">
-					<div class="nav-logo"><a href="index-2.html"><img src="images/logo.png" alt="" title=""></a></div>
-					<div class="close-btn"><i class="icon fa fa-times"></i></div>
-				</div>
-
-				<ul class="navigation clearfix">
-					<!--Keep This Empty / Menu will come through Javascript-->
-				</ul>
-				<ul class="contact-list-one">
-					<li>
-						<!-- Contact Info Box -->
-						<div class="contact-info-box">
-							<i class="icon lnr-icon-phone-handset"></i>
-							<span class="title">Call Now</span>
-							<a href="tel:+92880098670">+92 (8800) - 98670</a>
-						</div>
-					</li>
-					<li>
-						<!-- Contact Info Box -->
-						<div class="contact-info-box">
-							<span class="icon lnr-icon-envelope1"></span>
-							<span class="title">Send Email</span>
-							<a href="mailto:help@company.com">help@company.com</a>
-						</div>
-					</li>
-					<li>
-						<!-- Contact Info Box -->
-						<div class="contact-info-box">
-							<span class="icon lnr-icon-clock"></span>
-							<span class="title">Send Email</span>
-							Mon - Sat 8:00 - 6:30, Sunday - CLOSED
-						</div>
-					</li>
-				</ul>
-
-
-				<ul class="social-links">
-					<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-					<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-					<li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-				</ul>
-			</nav>
-		</div><!-- End Mobile Menu -->
-
-		<!-- Header Search -->
-		<div class="search-popup">
-			<span class="search-back-drop"></span>
-			<button class="close-search"><span class="fa fa-close"></span></button>
-
-			<div class="search-inner">
-				<form method="post" action="https://kodesolution.com/html/2023/crotive-html/index.html">
-					<div class="form-group">
-						<input type="search" name="search-field" value="" placeholder="Search..." required="">
-						<button type="submit"><i class="icon fa fa-search"></i></button>
-					</div>
-				</form>
-			</div>
-		</div>
-		<!-- End Header Search -->
-
-		<!-- Sticky Header  -->
-		<div class="sticky-header">
-			<div class="large-container">
-				<div class="inner-container">
-					<!--Logo-->
-					<div class="logo">
-						<a href="index-2.html" title=""><img src="images/logo.png" alt="" title=""></a>
-					</div>
-
-					<!--Right Col-->
-					<div class="nav-outer">
-						<!-- Main Menu -->
-						<nav class="main-menu">
-							<div class="navbar-collapse show collapse clearfix">
-								<ul class="navigation clearfix">
-									<!--Keep This Empty / Menu will come through Javascript-->
-								</ul>
-							</div>
-						</nav><!-- Main Menu End-->
-
-						<!--Mobile Navigation Toggler-->
-						<div class="mobile-nav-toggler"><span class="icon lnr-icon-bars"></span></div>
-					</div>
-				</div>
-			</div>
-		</div><!-- End Sticky Menu -->
-	</header>
-	<!--End Main Header -->
+		<!-- Main Header-->
+		<?php 
+		$currentPage = 'news';
+		include "./templates/header.php";
+	?>
 
 	<!-- Hidden bar back drop -->
 	<div class="hidden-bar-back-drop"></div>
 
-	<!-- Hidden Bar -->
-	<section class="hidden-bar">
-		<div class="inner-box">
-			<div class="upper-box">
-				<div class="nav-logo"><a href="index-2.html"><img src="images/logo.png" alt="" title=""></a></div>
-				<div class="close-btn"><i class="icon fa fa-times"></i></div>
-			</div>
-
-			<div class="text-box">
-				<h4 class="title">Innovative Tech Solutions Partner</h4>
-				<div class="text">Sed ut perspiciatis unde omnis natus error voluptatem santium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab nllo inventore veritatis quasi architecto beatae vitae</div>
-			</div>
-
-			<ul class="contact-list-two">
-				<li>
-					<!-- Contact Info Box -->
-					<div class="contact-info-box">
-						<i class="icon lnr-icon-phone-handset"></i>
-						<span class="title">Call Now</span>
-						<a href="tel:+92880098670">+92 (8800) - 98670</a>
-					</div>
-				</li>
-				<li>
-					<!-- Contact Info Box -->
-					<div class="contact-info-box">
-						<span class="icon lnr-icon-envelope1"></span>
-						<span class="title">Send Email</span>
-						<a href="mailto:help@company.com">help@company.com</a>
-					</div>
-				</li>
-				<li>
-					<!-- Contact Info Box -->
-					<div class="contact-info-box">
-						<span class="icon lnr-icon-clock"></span>
-						<span class="title">Send Email</span>
-						Mon - Sat 8:00 - 6:30, Sunday - CLOSED
-					</div>
-				</li>
-			</ul>
-
-			<ul class="social-links">
-				<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-				<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-				<li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-				<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-			</ul>
-		</div>
-	</section>
-	<!--End Hidden Bar -->
+	<?php include './templates/hiddenBar.php'; ?>
 
 	<!-- Start main-content -->
 	<section class="page-title" style="background-image: url(images/background/page-title.jpg);">
@@ -274,8 +46,9 @@
 			<div class="title-outer">
 				<h1 class="title">News Details</h1>
 				<ul class="page-breadcrumb">
-					<li><a href="index-2.html">Home</a></li>
-					<li>News </li>
+					<li><a href="/">Home</a></li>
+					<li><a href="blogs.php" class="sub-page">Blogs</a></li>
+					<li> News Details </li>
 				</ul>
 			</div>
 		</div>
@@ -485,79 +258,10 @@
 	<!--Blog Details End-->
 	
 	<!-- Main Footer -->
-	<footer class="main-footer style-three">
-		<div class="bg bg-pattern-15"></div>
-
-		<div class="widgets-section">
-			<div class="auto-container">
-				<div class="row">
-					<div class="footer-column col-lg-6 col-md-12">
-						<div class="footer-widget about-widget">
-							<div class="logo"><a href="index-2.html"><img src="images/logo-2.png" alt=""></a></div>
-							<h1 class="title text-white">Building a <br>creative web<br> design. <span class="arrow-icon"><img src="images/icons/arrow-icon.png" alt=""></span></h1>
-							<ul class="social-icon-two">
-								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fab fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="footer-column col-lg-6 col-md-12">
-						<div class="row">
-							<div class="col-lg-6 col-md-6">
-								<div class="footer-widget">
-									<h6 class="widget-title">Address</h6>
-									<ul class="user-links">
-										<li>33 Road Broklyn Street, 600</li>
-										<li>New York, USA</li>
-									</ul>
-								</div>
-							</div>
-
-							<div class="col-lg-6 col-md-6">
-								<div class="footer-widget">
-									<h6 class="widget-title">Hello</h6>
-									<ul class="user-links">
-										<li><a href="mailto:needhelp@company.com">needhelp@company.com</a></li>
-										<li><a href="tel:+92(666)8880000">+92 (666) 888 0000</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-
-						<div class="footer-widget">
-							<div class="subscribe-form">
-								<h6 class="widget-title">Newsletter</h6>
-								<div class="text">Signup for our daily updates latest news & articles.</div>
-								<form method="post" action="#">
-									<div class="form-group">
-										<input type="email" name="email" class="email" value="" placeholder="Email Address"
-											required="">
-										<button type="button" class="theme-btn"><i class="fa fa-paper-plane"></i></button>
-									</div>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!--Footer Bottom-->
-		<div class="footer-bottom">
-			<div class="auto-container">
-				<div class="inner-container">
-					<div class="copyright-text">© Copyright 2023 by <a href="#">Company.com</a></div>
-				</div>
-			</div>
-		</div>
-	</footer>
+	<?php 
+		include "./templates/footer.php";
+	?>
 	<!--End Main Footer -->
-
-</div><!-- End Page Wrapper -->
-
 
 </div><!-- End Page Wrapper -->
 

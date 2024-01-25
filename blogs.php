@@ -65,7 +65,7 @@
 				<div class="news-block col-lg-6 col-md-6 col-sm-12 wow fadeInUp">
 					<div class="inner-box">
 						<div class="image-box">
-							<figure class="image"><a href="news-details.html"><img src="images/resource/news-1.jpg" alt=""></a></figure>
+							<figure class="image"><a href="news-details.php"><img src="images/resource/news-1.jpg" alt=""></a></figure>
 							<span class="date">30 Mar, 2023</span>
 						</div>
 						<div class="content-box">
@@ -73,8 +73,8 @@
 								<li><i class="fa fa-user"></i> Sarah Rose</li>
 								<li><i class="fa fa-comments"></i> 2 Comments</li>
 							</ul>
-							<h5 class="title"><a href="news-details.html">Discover 10 Ways to Solve Website Problems</a></h5>
-							<a href="news-details.html" class="read-more">Read More</a>
+							<h5 class="title"><a href="news-details.php">Discover 10 Ways to Solve Website Problems</a></h5>
+							<a href="news-details.php" class="read-more">Read More</a>
 						</div>
 					</div>
 				</div>
@@ -83,7 +83,7 @@
 				<div class="news-block col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
 					<div class="inner-box">
 						<div class="image-box">
-							<figure class="image"><a href="news-details.html"><img src="images/resource/news-2.jpg" alt=""></a></figure>
+							<figure class="image"><a href="news-details.php"><img src="images/resource/news-2.jpg" alt=""></a></figure>
 							<span class="date">30 Mar, 2023</span>
 						</div>
 						<div class="content-box">
@@ -91,8 +91,8 @@
 								<li><i class="fa fa-user"></i> Sarah Rose</li>
 								<li><i class="fa fa-comments"></i> 2 Comments</li>
 							</ul>
-							<h5 class="title"><a href="news-details.html">Discover 10 Ways to Solve Website Problems</a></h5>
-							<a href="news-details.html" class="read-more">Read More</a>
+							<h5 class="title"><a href="news-details.php">Discover 10 Ways to Solve Website Problems</a></h5>
+							<a href="news-details.php" class="read-more">Read More</a>
 						</div>
 					</div>
 				</div>
@@ -101,7 +101,7 @@
 				<div class="news-block col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
 					<div class="inner-box">
 						<div class="image-box">
-							<figure class="image"><a href="news-details.html"><img src="images/resource/news-2.jpg" alt=""></a></figure>
+							<figure class="image"><a href="news-details.php"><img src="images/resource/news-2.jpg" alt=""></a></figure>
 							<span class="date">30 Mar, 2023</span>
 						</div>
 						<div class="content-box">
@@ -109,8 +109,8 @@
 								<li><i class="fa fa-user"></i> Sarah Rose</li>
 								<li><i class="fa fa-comments"></i> 2 Comments</li>
 							</ul>
-							<h5 class="title"><a href="news-details.html">Discover 10 Ways to Solve Website Problems</a></h5>
-							<a href="news-details.html" class="read-more">Read More</a>
+							<h5 class="title"><a href="news-details.php">Discover 10 Ways to Solve Website Problems</a></h5>
+							<a href="news-details.php" class="read-more">Read More</a>
 						</div>
 					</div>
 				</div>

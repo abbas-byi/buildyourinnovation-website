@@ -12689,7 +12689,7 @@ Page Title
   position: absolute;
   bottom: 0;
   right: 0;
-  background-color: var(--theme-color2);
+  background-color: var(--theme-color1);
   text-align: center;
   padding: 21px 24px 20px;
   -webkit-box-align: center;
@@ -12750,7 +12750,7 @@ Page Title
   color: var(--theme-color1);
 }
 .blog-details__meta li a i {
-  color: var(--theme-color2);
+  color: var(--theme-color1);
   margin-right: 6px;
 }
 
@@ -12796,7 +12796,7 @@ Page Title
 .blog-details__tags a {
   position: relative;
   font-size: 12px;
-  background-color: var(--theme-color2);
+  background-color: var(--theme-color1);
   color: var(--text-color-bg-theme-color2);
   display: inline-block;
   padding: 5px 30px 5px;
@@ -12860,7 +12860,7 @@ Page Title
   left: 0;
   right: 0;
   height: 100%;
-  background-color: var(--theme-color2);
+  background-color: var(--theme-color1);
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
   -webkit-transition-timing-function: ease-in-out;
@@ -13055,7 +13055,7 @@ Sidebar
   display: block;
   border: none;
   outline: none;
-  background-color: var(--theme-color2);
+  background-color: var(--theme-color1);
   color: var(--text-color-bg-theme-color2);
   font-size: 16px;
   font-weight: 500;
@@ -13189,7 +13189,7 @@ Sidebar
   transition: all 500ms ease;
 }
 .sidebar__post .sidebar__post-list .sidebar__post-content-meta i {
-  color: var(--theme-color2);
+  color: var(--theme-color1);
   font-size: 14px;
   padding-right: 3px;
 }
@@ -13350,7 +13350,7 @@ Sidebar
   padding-left: 65px;
 }
 .sidebar__comments-list li:hover .sidebar__comments-icon {
-  background-color: var(--theme-color2);
+  background-color: var(--theme-color1);
   color: var(--text-color-bg-theme-color2);
 }
 .sidebar__comments-list li + li {
@@ -13361,7 +13361,7 @@ Sidebar
   height: 45px;
   width: 45px;
   color: var(--text-color-bg-theme-color2);
-  background-color: var(--theme-color2);
+  background-color: var(--theme-color1);
   border-radius: 50%;
   font-size: 15px;
   display: -webkit-box;
@@ -13398,6 +13398,9 @@ Sidebar
   letter-spacing: 0;
 }
 
+.sub-page{
+  color: var(--text-color-bg-theme-color1) !important;
+}
 /*** 
 
 ====================================================================
