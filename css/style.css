@@ -12821,6 +12821,7 @@ Page Title
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding-top: 20px;
 }
 .blog-details__social-list a {
   position: relative;
@@ -13017,7 +13018,7 @@ Page Title
 }
 .nav-links > div > a:hover {
   color: var(--text-color-bg-theme-color2);
-  background-color: var(--theme-color2);
+  background-color: var(--theme-color1);
 }
 
 /*** 

@@ -65,16 +65,16 @@
 				<div class="news-block col-lg-6 col-md-6 col-sm-12 wow fadeInUp">
 					<div class="inner-box">
 						<div class="image-box">
-							<figure class="image"><a href="news-details.php"><img src="images/resource/news-1.jpg" alt=""></a></figure>
-							<span class="date">30 Mar, 2023</span>
+							<figure class="image"><a href="maximizing-wordpress-for-e-commerce.php"><img src="images/resource/Infographics on mobile optimization, AI chatbot in action on a website.png" alt=""></a></figure>
+							<span class="date">25 Jan, 2024</span>
 						</div>
 						<div class="content-box">
 							<ul class="post-info">
-								<li><i class="fa fa-user"></i> Sarah Rose</li>
+								<li><i class="fa fa-user"></i> Abbas Badshah</li>
 								<li><i class="fa fa-comments"></i> 2 Comments</li>
 							</ul>
-							<h5 class="title"><a href="news-details.php">Discover 10 Ways to Solve Website Problems</a></h5>
-							<a href="news-details.php" class="read-more">Read More</a>
+							<h5 class="title"><a href="maximizing-wordpress-for-e-commerce.php">Maximizing WordPress for E-commerce</a></h5>
+							<a href="maximizing-wordpress-for-e-commerce.php" class="read-more">Read More</a>
 						</div>
 					</div>
 				</div>
@@ -83,16 +83,16 @@
 				<div class="news-block col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
 					<div class="inner-box">
 						<div class="image-box">
-							<figure class="image"><a href="news-details.php"><img src="images/resource/news-2.jpg" alt=""></a></figure>
-							<span class="date">30 Mar, 2023</span>
+							<figure class="image"><a href="the-future-of-web-design.php"><img src="images/resource/Screenshots of interactive web elements, flowchart of website interaction design2.png" alt=""></a></figure>
+							<span class="date">2 Dec, 2023</span>
 						</div>
 						<div class="content-box">
 							<ul class="post-info">
-								<li><i class="fa fa-user"></i> Sarah Rose</li>
+								<li><i class="fa fa-user"></i> admin</li>
 								<li><i class="fa fa-comments"></i> 2 Comments</li>
 							</ul>
-							<h5 class="title"><a href="news-details.php">Discover 10 Ways to Solve Website Problems</a></h5>
-							<a href="news-details.php" class="read-more">Read More</a>
+							<h5 class="title"><a href="the-future-of-web-design.php">The Future of Web Design</a></h5>
+							<a href="the-future-of-web-design.php" class="read-more">Read More</a>
 						</div>
 					</div>
 				</div>
@@ -101,22 +101,22 @@
 				<div class="news-block col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
 					<div class="inner-box">
 						<div class="image-box">
-							<figure class="image"><a href="news-details.php"><img src="images/resource/news-2.jpg" alt=""></a></figure>
-							<span class="date">30 Mar, 2023</span>
+							<figure class="image"><a href="blogs.php/leveraging-react-js-for-scalable-and-efficient-web-applications.php"><img src="images/resource/Diagram of React component lifecycle, screenshot of a complex React application interface2.png" alt=""></a></figure>
+							<span class="date">12 Nov, 2023</span>
 						</div>
 						<div class="content-box">
 							<ul class="post-info">
-								<li><i class="fa fa-user"></i> Sarah Rose</li>
+								<li><i class="fa fa-user"></i> Khadija Rafique</li>
 								<li><i class="fa fa-comments"></i> 2 Comments</li>
 							</ul>
-							<h5 class="title"><a href="news-details.php">Discover 10 Ways to Solve Website Problems</a></h5>
-							<a href="news-details.php" class="read-more">Read More</a>
+							<h5 class="title"><a href="leveraging-react-js-for-scalable-and-efficient-web-applications.php">Leveraging React JS for Scalable </a></h5>
+							<a href="leveraging-react-js-for-scalable-and-efficient-web-applications.php" class="read-more">Read More</a>
 						</div>
 					</div>
 				</div>
 
 				<!-- News Block -->
-				<div class="news-block col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="900ms">
+				<!-- <div class="news-block col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="900ms">
 					<div class="inner-box">
 						<div class="image-box">
 							<figure class="image"><a href="#"><img src="images/resource/news-1.jpg" alt=""></a></figure>
@@ -131,7 +131,7 @@
 							<a href="#" class="read-more">Read More</a>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</section>

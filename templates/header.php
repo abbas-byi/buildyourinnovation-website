@@ -15,7 +15,7 @@
                         <li class=" <?php if($currentPage =='about'){echo 'current';}?>" "><a href="about-build-your-innovation.php">About Us</a></li>
                         <li class=" <?php if($currentPage =='services'){echo 'current';}?>" "><a href="services.php">Services</a></li>
                         <li class=" <?php if($currentPage =='portfolio'){echo 'current';}?>" "><a href="portfolio.php">Portfolio</a></li>
-                        <!-- <li class=" <?php if($currentPage =='news'){echo 'current';}?>" "><a href="blogs.php">Blogs</a></li> -->
+                        <li class=" <?php if($currentPage =='news'){echo 'current';}?>" "><a href="blogs.php">Blogs</a></li>
                         <li class=" <?php if($currentPage =='contact'){echo 'current';}?>" "><a href="contact.php">Contact</a></li>
                     </ul>
                 </nav>
